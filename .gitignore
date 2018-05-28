@@ -3,5 +3,5 @@ target
 *.iml
 *.swp
 .settings
-.bin
+bin
 .project
