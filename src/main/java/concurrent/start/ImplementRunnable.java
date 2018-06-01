@@ -6,6 +6,7 @@ package concurrent.start;
 public class ImplementRunnable implements Runnable {
     int i = 0;
 
+
     public void run() {
         // 方法体
 //        super.run();
