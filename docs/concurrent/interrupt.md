@@ -14,3 +14,10 @@
 旧会返回false。
 
 > 当一个线程运行时，另一个线程可以调用对应的 Thread 对象的 interrupt()方法来中断它，该方法只是在目标线程中设置一个标志，表示它已经被中断，并立即返回。这里需要注意的是，如果只是单纯的调用 interrupt()方法，线程并没有实际被中断，会继续往下执行
+
+----
+
+- [安全的终止线程](/src/main/java/concurrent/interrupt/Shutdown.java)
+- [使用interrupt()中断线程](/src/main/java/concurrent/interrupt/SleepInterrupt.java)
+- [决断中断](/src/main/java/concurrent/interrupt/PendingInterrupt.java)
+- [使用 isInterrupted()方法判断中断状态](/src/main/java/concurrent/interrupt/InterruptCheck.java)
