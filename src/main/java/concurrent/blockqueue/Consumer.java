@@ -2,6 +2,9 @@ package concurrent.blockqueue;
 
 import java.util.concurrent.BlockingQueue;
 
+/**
+ * 消费者
+ */
 public class Consumer implements Runnable {
     protected BlockingQueue<Object> queue;
 

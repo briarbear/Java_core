@@ -28,7 +28,7 @@ public class Producer implements Runnable {
         }
     }
 
-
+    //生产对象
     Object getResource(){
         try {
             Thread.sleep(100);
