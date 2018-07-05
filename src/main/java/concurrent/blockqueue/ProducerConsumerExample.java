@@ -31,5 +31,5 @@ public class ProducerConsumerExample {
         System.exit(0);
     }
 
-    Exception
+
 }
