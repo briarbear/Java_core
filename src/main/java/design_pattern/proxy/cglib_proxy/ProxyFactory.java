@@ -26,7 +26,7 @@ public class ProxyFactory implements MethodInterceptor {
     //给目标对象创建一个代理对象
     public Object getProxyInstance(){
         //1. 工具类
-        var en = new Enhancer();
+        Enhancer en = new Enhancer();
         //2. 设置父类
         en.setSuperclass(target.getClass());
         //3. 设置回调函数
