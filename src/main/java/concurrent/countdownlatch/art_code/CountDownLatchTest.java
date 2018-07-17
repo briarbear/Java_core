@@ -1,5 +1,6 @@
 package concurrent.countdownlatch.art_code;
 
+import java.util.Collections;
 import java.util.concurrent.CountDownLatch;
 
 /**
@@ -29,5 +30,8 @@ public class CountDownLatchTest {
 
         c.await();
         System.out.println("3");
+
+
+
     }
 }
