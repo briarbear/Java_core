@@ -1,6 +1,15 @@
 package test;
 
+import javafx.concurrent.Worker;
+
+import java.util.concurrent.ThreadPoolExecutor;
+
 public abstract class A {
+
+
+    public static void main(String[] args) {
+        new ThreadPoolExecutor()
+    }
 
     public abstract void hello();
     public void say(){
