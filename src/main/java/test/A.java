@@ -8,7 +8,7 @@ public abstract class A {
 
 
     public static void main(String[] args) {
-        new ThreadPoolExecutor()
+//        new ThreadPoolExecutor();
     }
 
     public abstract void hello();
