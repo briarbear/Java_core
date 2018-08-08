@@ -19,7 +19,7 @@ public class CyclicBarrierTest {
     public static void main(String[] args) {
         new Thread(() -> {
             try {
-                c.await();
+                c.await();    //通过await()方法等待
             } catch (Exception e) {
 
             }

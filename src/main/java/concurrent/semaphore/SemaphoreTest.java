@@ -12,7 +12,7 @@ import java.util.concurrent.Semaphore;
  * @blog https://briarbear.github.io
  * @create 2018-07-17-9:39
  */
-public class SemophoreTest {
+public class SemaphoreTest {
 
     private static final int THREAD_COUNT = 30;
     private static ExecutorService threadPool = Executors.newFixedThreadPool(THREAD_COUNT);  //新建线程池
