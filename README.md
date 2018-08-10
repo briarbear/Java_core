@@ -2,6 +2,14 @@
 
 ---
 
+## 设计模式
+- [原型模式](src/main/java/design_pattern/prototype)
+- [三个工厂模式](src/main/java/design_pattern/factroy)
+- [单例模式](src/main/java/design_pattern/single)
+- [代理模式](src/main/java/design_pattern/proxy)
+- [建造者模式](src/main/java/design_pattern/build)
+
+
 ## Java 并发
 - [阻塞队列](src/main/java/concurrent/blockqueue)
 - [CountDownLatch类](src/main/java/concurrent/countdownlatch)
