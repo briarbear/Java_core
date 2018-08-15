@@ -7,8 +7,8 @@
 - [三个工厂模式](src/main/java/design_pattern/factroy)
 - [单例模式](src/main/java/design_pattern/single)
 - [代理模式](src/main/java/design_pattern/proxy)
-- [建造者模式](src/main/java/design_pattern/build)
-
+- [构造器模式](src/main/java/design_pattern/build)
+- [适配器模式](src/main/java/design_pattern/adapter)
 
 ## Java 并发
 - [阻塞队列](src/main/java/concurrent/blockqueue)
